@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+  <!--  <servlet>
+        <servlet-name>Calculator</servlet-name>
+        <servlet-class>com.example.servletjsppractice.CalculatorServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/calc</url-pattern>
+    </servlet-mapping>
+    -->
+ <!--   <servlet>
+        <servlet-name>square</servlet-name>
+        <servlet-class>com.example.servletjsppractice.SqServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>square</servlet-name>
+        <url-pattern>/sq</url-pattern>
+    </servlet-mapping>-->
+</web-app>
