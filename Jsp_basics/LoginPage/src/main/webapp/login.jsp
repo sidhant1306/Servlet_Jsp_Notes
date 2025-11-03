@@ -5,7 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-  <form action="login" method="get">
+  <form action="login" method="post">
       Enter your username : <input type="text" name="username"><br>
       Enter your password : <input type="password" name="password"><br>
       <input type="submit" value="login">

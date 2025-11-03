@@ -12,12 +12,12 @@
 </head>
 <body>
 <%
-
+    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
     if(session.getAttribute("username") == null){
         response.sendRedirect("login.jsp");
     }
 %>
 
-video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Fe0zk-F4OA?si=p5eE8Yub8vv80Njg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
